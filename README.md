@@ -1,40 +1,21 @@
----
-license: other
-license_name: arxiv-nonexclusive-distrib-1.0
-license_link: https://arxiv.org/licenses/nonexclusive-distrib/1.0/
-task_categories:
-- text-generation
-language:
-- zh
-- en
-tags:
-- deepseek
-- deepseek-r1
-- translation
-- pdf
-- bilingual
-pretty_name: DeepSeek-R1 Chinese Translation (Community)
----
+# 达哥的论文 / 报告中文翻译
 
-# DeepSeek-R1 中文翻译 PDF（社区学习版）
+英文论文、研究报告的中文译本，每篇一个文件夹，都出两版：**纯中文**（手机阅读）和**中英对照**（核对原文）。
+翻译按「达哥的翻译规范」（信达雅，信为先）：公式、代码、图表保留原样，术语首次出现附英文，经独立复检。
 
-Community Chinese translation of the DeepSeek-R1 technical paper for **private study**.
+## 目录
 
-## Files
+| 日期 | 文件夹 | 原文 | 下载 |
+|---|---|---|---|
+| 2026-10-06 | [261006_a16z_State-of-Markets-II](261006_a16z_State-of-Markets-II) | a16z《State of Markets II》 | [纯中文](https://github.com/Grayker007/Paper-Translations-ZH/raw/main/261006_a16z_State-of-Markets-II/State-of-Markets-II-%E7%BA%AF%E4%B8%AD%E6%96%87_v2.pdf) · [中英对照](https://github.com/Grayker007/Paper-Translations-ZH/raw/main/261006_a16z_State-of-Markets-II/State-of-Markets-II-%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7_v2.pdf) |
+| 2026-10-05 | [261005_DeepSeek-R1](261005_DeepSeek-R1) | [DeepSeek-R1 技术报告](https://arxiv.org/abs/2501.12948) | [纯中文](https://github.com/Grayker007/Paper-Translations-ZH/raw/main/261005_DeepSeek-R1/DeepSeek-R1-%E7%BA%AF%E4%B8%AD%E6%96%87.pdf) · [中英对照](https://github.com/Grayker007/Paper-Translations-ZH/raw/main/261005_DeepSeek-R1/DeepSeek-R1-%E4%B8%AD%E8%8B%B1%E5%AF%B9%E7%85%A7.pdf) |
 
-| File | Description |
-|------|-------------|
-| `DeepSeek-R1-中英对照.pdf` | Bilingual EN/ZH side-by-side |
-| `DeepSeek-R1-纯中文.pdf` | Chinese-only |
+## 命名规则
 
-## License / attribution
+- 文件夹：`YYMMDD_来源_标题`，和 NAS `Projects-Archive/03_论文翻译/` 保持一致。
+- 文件：`标题-纯中文.pdf` / `标题-中英对照.pdf`，有修订版加 `_v2` 等后缀。
+- 新文章加到上面目录表的最上面。
 
-- **Original paper**: DeepSeek-R1 on [arXiv](https://arxiv.org/abs/2501.12948) under the [arXiv non-exclusive distribution license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/). Authors retain copyright; arXiv is granted a non-exclusive license to distribute.
-- **This upload**: Community Chinese translation for study only. Not an official DeepSeek release. Translation does not claim originality over the underlying paper content.
-- Use of the original work remains subject to the paper authors' rights and arXiv terms. Do not treat this translation as a substitute for the official source.
+## 版权说明
 
-## Source
-
-- Paper: https://arxiv.org/abs/2501.12948
-- Translation pipeline: BabelDOC-based layout-preserving PDF translation
-
+社区学习用译本，非原作者官方发布，原文版权归各自作者 / 机构。如有不妥请提 issue，会及时下架。
